@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tx_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="Title"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tx_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx_title"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:text="Description"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Done" />
+
+        <Button
+            android:id="@+id/bt_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:text="Details" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
